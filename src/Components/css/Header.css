@@ -1,0 +1,16 @@
+.header {
+    font-family: 'Inika', serif;
+    color: #366E7A;
+    margin-left: 2%;
+}
+
+.header p {
+    font-size: 2vmax;
+}
+.headerTitle {
+    cursor:pointer;
+}
+
+.headerTitle:hover{
+    color: #0ebce3;
+}

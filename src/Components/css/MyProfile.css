@@ -1,0 +1,95 @@
+.homepageContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.homepageTitle p{
+    color: #366E7A;
+    font-family: 'Inika', serif;
+    font-size: 2vmax;
+    font-weight: bold;
+    margin-bottom: -2%;
+}
+
+.homepageSubheading p {
+    font-family: 'Inika', serif;
+    color: #828282;
+}
+
+.profile-title {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.profile-buttons {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.profile-buttons li {
+    list-style: none;
+    margin-right: 10px; 
+    padding-bottom: 30px;
+}
+.profile-container {
+    display: flex;
+    width: 100%;
+}
+.profile-info {
+    flex: 1;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 50px;
+}
+.profile-image {
+    flex: 1;
+    background-size: cover;
+    background-position: center; 
+    text-align: center;
+    margin-right: 10%;
+    margin-left: 10%;
+    justify-content: center;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+}
+.profile-pic {
+    background-image: url("CPU.png");
+    width: 300px;
+    height: 300px;
+    background-size: contain;
+}
+.edit-label {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.profile-info label {
+    display: block;
+    margin-bottom: 5px;
+}
+.profile-info input, .profile-info textarea {
+    margin-bottom: 15px;
+}
+.profile-info textarea {
+    width: 150%;
+    height: 150px;
+    resize: none;
+}
+.profile-info input {
+    resize: none;
+    background-color: #f0f0f0;
+}
+  .AllDone {
+    text-align: center;
+    padding: 30px;
+  }
+.disable-label {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}

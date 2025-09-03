@@ -1,0 +1,97 @@
+.loginPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signInTitle {
+    color: #366E7A;
+    font-family: 'Inika', serif;
+    font-size: 1.5vmax;
+    font-weight: bold;
+    margin-bottom: -2%;
+}
+
+.orContinueWith {
+    color: gray;
+}
+
+.loginForm input {
+    width: 20vw;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 10px;
+    border: none;
+    background-color: white;
+    font-family: 'Inter', serif;
+}
+
+.signInButton {
+    width: 20vw;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-family: 'Inika', serif;
+    font-size: 1vmax;
+    margin-top: 10px;
+    border:none;
+
+}
+
+.loginForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.googleButton {
+    background-color: #EEEEEE;
+    border:none;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    text-align: center;
+    width: 20vw; 
+    overflow: hidden;
+    position: relative;
+    font-family: 'Inter', sans-serif; 
+}
+.googleButton img {
+    position: absolute;
+    left: 10px; 
+    width: 20px; 
+    background-color:#EEEEEE;
+}
+.googleButton:hover {
+    background-color: darkgray;
+}
+.createAccountButton {
+    width: 20vw;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-family: 'Inika', serif;
+    font-size: 1vmax;
+    margin-top: 10px;
+    border:none;
+
+}
+
+.createAccountButton:hover, .signInButton:hover {
+    background-color: darkslategray;
+
+}
+
+p b {
+    font-weight: bold;
+}
+
+.signInSubheading, .orContinueWith {
+    font-family: 'Inika', serif;
+}
+
+button {
+    cursor: pointer;
+}
